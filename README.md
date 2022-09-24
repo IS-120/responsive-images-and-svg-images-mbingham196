@@ -1,3 +1,5 @@
+The purpose of my website is to provide a page that my friends and potential employers can look at to learn more about me. 
+
 # Responsive images and SVG images
 
 Learn how to do the following:

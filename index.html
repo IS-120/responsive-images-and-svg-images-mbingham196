@@ -2,13 +2,21 @@
 <html lang="en">
 
 <head>
+  <!-- copy your <head> info including title, favicon info, and site description meta tag here -->
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Achieving greater success in life through higher education">
 
-  <!-- copy your <head> info including title, favicon info, and site description meta tag here -->
-
-  <title>Document</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="shortcut icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+  <link rel="manifest" href="../images/site.webmanifest">
+  <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>About Me</title>
 
   <!-- but keep this line -->
   <link rel="stylesheet" href="styles/main.css">
@@ -16,12 +24,16 @@
 
 <body>
   <picture>
-    <source media="(min-width: 769px)" srcset="images/hero-squirrel-1920w.jpg">
-    <source media="(min-width: 381px)" srcset="images/hero-squirrel-768w.jpg">
-    <source media="(max-width: 380px)" srcset="images/hero-squirrel-380w.jpg">
-    <img src="images/hero-squirrel-768w.jpg" alt="brown squirrel on green grass lawn">
+    <source media="(min-width: 769px)" srcset="images/hero-sunrise-1920.jpg">
+    <source media="(min-width: 381px)" srcset="images/hero-sunrise-768.jpg">
+    <source media="(max-width: 380px)" srcset="images/hero-sunrise-380.jpg">
+    <img src="images/hero-sunrise-768.jpg" alt="A family picture with Matthew Bingham, his parents, and two Sisters">
   </picture>
+
   <header>
+    <svg>
+      <use href="#target" />
+    </svg>
     <nav>
       <ul>
         <li><a>Home</a></li>
@@ -30,11 +42,47 @@
       </ul>
     </nav>
   </header>
-
   <!-- copy your main, aside, and footer from your previous assignment here -->
   <main>
-    <h1>Squirrels are your friends</h1>
+    <h1>All About Me</h1>
+    <figure>
+      <img srcset="images/mb-300w.jpg 300w,
+                 images/mb-600w.jpg 600w,
+                 images/mb-900w.jpg 900w" sizes="50vw" src="images/mb-600w.jpg"
+        alt="A Recent Headshot of Matthew Bingham" height="494" width="600">
+      <figcaption>August 2022; Starting BYU</figcaption>
+    </figure>
+    <article>
+      <h2>My Family</h2>
+      <p><strong>The Binghams</strong></p>
+    </article>
+    <article>
+      <h2>Things I like to do</h2>
+      <p><em>I love math and adventures.</em></p>
+      <h3>I am majoring in Applied Mathematics. I love singing and playing the piano. I enjoy unicycling, playing
+        Ultimate Disc, hiking, and being outdoors. I love spending time with my family.</h3>
+    </article>
   </main>
+  <aside>
+    <p>
+      <svg>
+        <symbol id="target" viewbox="0 0 120 120">
+          <circle cx="60" cy="60" r="60" fill="red" />
+          <circle cx="60" cy="60" r="50" fill="white" />
+          <circle cx="60" cy="60" r="40" fill="red" />
+          <circle cx="60" cy="60" r="30" fill="white" />
+          <circle cx="60" cy="60" r="20" fill="red" />
+          <circle cx="60" cy="60" r="10" fill="white" />
+        </symbol>
+      </svg>
+    </p>
+  </aside>
+  <footer>
+    <p>Matthew Bingham &copy; 2022</p>
+  </footer>
 </body>
+
+
+
 
 </html>
